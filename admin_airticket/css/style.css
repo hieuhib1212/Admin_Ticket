@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppin", sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.header {
+  background-color: #666666;
+}
+.nav {
+  margin-left: 10%;
+  text-align: left;
+}
+.nav a,
+.vertical-line, p {
+  display: inline-block;
+}
+.vertical-line {
+  border-left: thin solid #e7e7e7;
+  height: 15px;
+}
+a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+p {
+  color: #e7e7e7;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+.sidenav p {
+  font-size: 20px;
+  color: red;
+  margin: 20px 10px;
+}
+.info {
+  margin-top: 20px;
+  margin-left: 180px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 100%;
+  position: relative;
+  padding-bottom: 20px;
+}
+.info p {
+  text-align: left;
+  margin-left: 20px;
+}
+.table-title {
+  background-color: #e7e7e7;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
+.table-title p {
+  color: red;
+  font-size: 20px;
+}
+.input {
+  text-align: center;
+  padding: 30px;
+}
+.List {
+  width: 100%;
+  border-collapse: collapse;
+}
+.List th {
+  background-color: #2688ed;
+  height: 50px;
+  color: #e7e7e7;
+}
+.List tr {
+    border-bottom: 1px solid #e7e7e7;
+    height: 30px;
+}
+.btn{
+    color: #2688ed;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+.form {
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid #e7e7e7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form table {
+  margin: 0 auto;
+  width: 80%;
+  margin-left: 50px;
+}
+.form table tr {
+  line-height: 3em;
+  
+}
+.form table td {
+  text-align: left;
+}
+.form p {
+  color: #666666;
+  font-style: italic;
+}
+.pagination {
+  text-align: center;
+  
+}
+.page {
+  display: inline-block;
+}
+.pagination a {
+  color: #2688ED;
+  float: left;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+.pagination a:active {
+  text-decoration: underline;
+}
+
